@@ -23,7 +23,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     </ThemeContext.Provider>
   );
 };
-
+//mujhe nahi aata , per mai kuch toh kr rha hu 
 // Custom hook to use the theme context
 export const useTheme = () => {
   const [loading,setLoading]=useState(true);
